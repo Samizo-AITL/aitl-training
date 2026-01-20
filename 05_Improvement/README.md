@@ -1,8 +1,3 @@
----
-title: "aitl-training"
-description: "Improvement"
----
-
 # Improvement
 
 This directory describes **continuous improvement and corrective-action concepts**
