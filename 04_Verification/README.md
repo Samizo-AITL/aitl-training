@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "Competence Verification"
+---
+
 # Competence Verification
 
 This directory defines **how training outcomes are verified**.
