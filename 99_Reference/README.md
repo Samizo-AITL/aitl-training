@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "Reference"
+---
+
 # Reference
 
 This directory provides **reference links to the main Samizo-AITL repositories**.
