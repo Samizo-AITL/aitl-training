@@ -19,3 +19,12 @@ Records in this directory support:
 
 Attendance alone is not sufficient; records must show **verified competence**.
 
+---
+
+## Training Record Templates
+
+- **Training Record Template**  
+  - [Training_Record_Template.md](./Training_Record_Template.md)  
+  - Standard template for documenting training execution, evidence, and competence verification.
+
+
