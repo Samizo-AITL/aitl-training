@@ -41,6 +41,66 @@ These remain the **Single Source of Truth** within the main Samizo-AITL reposito
 
 ---
 
+## Directory Overview
+
+The directory structure itself reflects the **AITL education and competence framework**.
+
+### 📁 Policy
+- [`00_Policy/`](./00_Policy/)
+- Defines **non-negotiable principles**, responsibility separation, and education policy  
+- Top-level reference aligned with ISO 9001 Clause 7.2
+
+---
+
+### 📁 Training Architecture
+- [`01_Training_Architecture/`](./01_Training_Architecture/)
+- Defines the **ordered learning structure**  
+  (Physical → Control → Intelligence → Boundary & Recovery)
+- Ensures causal, responsibility-preserving education
+
+---
+
+### 📁 Training Plans (Role-based)
+- [`02_Training_Plan/`](./02_Training_Plan/)
+- Role-specific competence definitions and learning scope
+  - Design Engineer
+  - Control Engineer
+  - AI System Architect
+  - (Optional) Engineering Manager
+- Specifies **what must be understood and explained**, not how to implement
+
+---
+
+### 📁 Training Records
+- [`03_Training_Record/`](./03_Training_Record/)
+- Templates for **objective evidence of training and competence**
+- Supports audits, reviews, and traceability
+
+---
+
+### 📁 Verification
+- [`04_Verification/`](./04_Verification/)
+- Defines **competence verification criteria**
+- Confirms understanding, judgment, and accountability
+- Prevents unsafe delegation to AI or tools
+
+---
+
+### 📁 Improvement
+- [`05_Improvement/`](./05_Improvement/)
+- Concepts for **continuous improvement and corrective actions**
+- Supports ISO 9001 Clause 10 (Improvement)
+
+---
+
+### 📁 Reference
+- [`99_Reference/`](./99_Reference/)
+- Links to **main Samizo-AITL repositories**
+- Declares the **Single Source of Truth**
+- No original technical content is created here
+
+---
+
 ## Relation to Samizo-AITL
 
 AITL is based on a strict separation of responsibilities:
