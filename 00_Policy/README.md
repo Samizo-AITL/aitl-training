@@ -1,8 +1,3 @@
----
-title: "aitl-training"
-description: "Policy"
----
-
 # Policy
 
 This directory contains the **top-level education and training policy** for AITL Training.
