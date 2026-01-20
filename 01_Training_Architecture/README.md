@@ -1,8 +1,3 @@
----
-title: "aitl-training"
-description: "Training Architecture"
----
-
 # Training Architecture
 
 This directory defines the **overall training architecture** for AITL-based education.
