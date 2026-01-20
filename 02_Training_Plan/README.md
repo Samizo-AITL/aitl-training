@@ -1,176 +1,181 @@
-# Training Plan: Design Engineer (AITL)
+# Training Plan: AI System Architect (AITL)
 
-This document defines the **role-based training plan** for **Design Engineers**
+This document defines the **role-based training plan** for **AI System Architects**
 working with systems based on **AITL (Architecture for Integrated Technology Logic)**.
 
-This plan is aligned with **ISO 9001 Clause 7.2 (Competence)** and specifies
-required knowledge, learning scope, and verification criteria to ensure
-that design responsibility is preserved when applying control and AI technologies.
+This plan is aligned with **ISO 9001 Clause 7.2 (Competence)** and is specifically designed
+to ensure that AI technologies are applied **without violating control authority,
+design responsibility, or accountability**.
 
 ---
 
 ## 1. Role Definition
 
-A **Design Engineer** under AITL is responsible for:
+An **AI System Architect** under AITL is responsible for:
 
-- Defining system architecture and design intent
-- Making final design decisions based on physical and control constraints
-- Determining where automation or AI assistance is acceptable
-- Retaining accountability for safety, performance, and limitations
+- Designing how AI technologies are integrated into engineering systems
+- Defining **where AI may assist and where it is explicitly prohibited**
+- Ensuring AI usage does not obscure responsibility or decision ownership
+- Supporting engineers through analysis, review, and design-time assistance
 
-This role **cannot delegate responsibility** to tools, algorithms, or AI systems.
+This role **does not own real-time behavior** and **does not make final design decisions**.
 
 ---
 
 ## 2. Training Objectives
 
-After completing this training, a Design Engineer shall be able to:
+After completing this training, an AI System Architect shall be able to:
 
-- Explain system behavior from **physical causes to control responses**
-- Justify architectural choices using AITL responsibility separation
-- Identify conditions where adaptive or AI-based methods must be restricted or stopped
-- Clearly explain **why LLMs are limited to non-real-time, design-time use**
-- Communicate design assumptions, risks, and boundaries to stakeholders
+- Explain AITL responsibility separation without ambiguity
+- Clearly distinguish **design-time intelligence** from real-time control
+- Identify prohibited AI use cases in control and safety-critical systems
+- Design AI workflows that preserve human accountability
+- Communicate AI limitations to engineers and management
 
 ---
 
 ## 3. Required Training Layers
 
-Design Engineers must complete training in the following AITL layers.
+AI System Architects must complete training in the following AITL layers.
 
 ### Layer 1: Physical and System Constraints
 
 Required competence:
-- Explain dominant physical laws and constraints
-- Identify non-negotiable system limits
-- Describe failure modes caused by physical assumptions
-
-Typical references:
-- Semiconductor / MEMS physics
-- Electrical, thermal, mechanical boundaries
+- Understand physical constraints that AI cannot override
+- Recognize where abstraction hides critical physical assumptions
+- Explain why AI cannot compensate for missing physics
 
 ---
 
 ### Layer 2: Models and Control Foundations
 
 Required competence:
-- Explain modeling assumptions and limitations
-- Understand PID-based real-time control principles
-- Explain stability, response, and performance trade-offs
+- Understand the role of control models and PID-based control
+- Explain why AI is not a replacement for real-time control
+- Recognize risks of AI-driven control substitution
 
 Key rule:
-- Real-time control responsibility remains with **PID and FSM**
+- AI **shall not** replace control models or control logic
 
 ---
 
 ### Layer 3: Supervisory Control and State Management
 
 Required competence:
-- Understand FSM-based mode management
-- Explain state transitions and supervision logic
-- Identify conditions triggering recovery or shutdown
+- Understand FSM-based supervision
+- Explain how supervision governs permission for adaptation
+- Recognize escalation paths when assumptions break
 
 Key rule:
-- Supervisory logic governs **permission for adaptation**
+- AI operates **under supervision**, never as a supervisor of control authority
 
 ---
 
 ### Layer 4: Adaptive Assistance (Bounded)
 
 Required competence:
-- Understand the role of NN / RL as adaptive assist
-- Identify safe bounds for adaptation
-- Recognize unsafe or responsibility-breaking use cases
+- Understand NN / RL as bounded adaptive assist mechanisms
+- Identify explicit safety and responsibility bounds
+- Recognize failure modes caused by uncontrolled adaptation
 
 Key rule:
-- Adaptive methods must not replace deterministic control
+- AI adaptation is **conditional, bounded, and revocable**
 
 ---
 
 ### Layer 5: Design-Time Intelligence (LLM)
 
 Required competence:
-- Use LLMs for analysis, review, and design support only
-- Explain why LLMs are excluded from real-time control
-- Treat AI outputs as **non-authoritative input**
+- Design workflows where LLMs support analysis and review
+- Ensure LLM usage is strictly **non-real-time**
+- Treat LLM outputs as **non-authoritative reference material**
 
 Key rule:
-- Final design judgment remains human-responsible
+- LLMs assist engineers; they do not decide for them
 
 ---
 
 ### Layer 6: Boundary Confirmation and Design Recovery
 
 Required competence:
-- Detect breakdown of assumptions
-- Decide when to stop operation and return to design
-- Participate in design recovery and corrective action
+- Identify when AI-assisted assumptions are invalid
+- Support escalation to design recovery processes
+- Participate in corrective action and improvement activities
 
 ---
 
-## 4. Learning Materials
+## 4. Prohibited AI Use Cases
+
+AI System Architects must be able to clearly identify and prevent:
+
+- Use of LLMs in real-time control loops
+- Autonomous AI decision-making without human accountability
+- Replacement of PID or FSM logic with AI models
+- AI systems that obscure responsibility attribution
+- AI-generated outputs used without verification
+
+---
+
+## 5. Learning Materials
 
 Training materials shall be selected from the **Samizo-AITL main repositories**,
-including but not limited to:
+including:
 
-- Physical and device documentation
-- Control architecture explanations
-- AITL Controller PoC and demonstrations
+- AITL architecture documentation
+- Control and supervisory architecture explanations
 - Design recovery and legacy case studies
+- AI safety and responsibility discussions
 
-This training plan does **not** duplicate technical documentation.
+This training plan does **not** promote AI-first or tool-driven design.
 
 ---
 
-## 5. Verification Criteria
+## 6. Verification Criteria
 
-Competence verification for Design Engineers shall confirm that the trainee can:
+Competence verification shall confirm that the AI System Architect can:
 
-- Explain AITL responsibility separation **without ambiguity**
-- Describe system behavior using causal reasoning
-- Justify the exclusion of AI from real-time control
-- Identify unsafe delegation of responsibility
+- Explain AI’s permitted and prohibited roles under AITL
+- Design AI workflows that preserve responsibility boundaries
+- Identify unsafe or misleading AI integration patterns
+- Communicate AI limitations clearly to non-AI engineers
 
 Verification methods may include:
-- Oral explanation
-- Written justification
-- Design review discussion
+- Scenario analysis
+- Architecture explanation
 - Checklist-based assessment
+- Design review discussion
 
 ---
 
-## 6. Training Records
+## 7. Training Records
 
-Completion of this training shall be recorded using the templates defined in:
+Completion of this training shall be recorded using:
 
-- `03_Training_Record`
+- Templates defined in `03_Training_Record`
 
-Records must show:
-- Training scope completed
-- Verification method used
+Records must indicate:
+- Training layers completed
+- Verification outcome
 - Verifier identity
 
-Attendance alone is **not sufficient**.
-
 ---
 
-## 7. Completion Criteria
+## 8. Completion Criteria
 
-A Design Engineer is considered trained under AITL when:
+An AI System Architect is considered trained under AITL when:
 
 - All required layers are completed
 - Verification criteria are satisfied
-- Design responsibility boundaries are clearly understood and accepted
+- Responsibility boundaries are explicitly acknowledged
 
 ---
 
-## 8. Summary
+## 9. Summary
 
-This training plan ensures that Design Engineers:
+This training plan ensures that AI System Architects:
 
-- Use AI and automation **without losing accountability**
-- Maintain clear responsibility boundaries
-- Make design decisions grounded in physical and control reality
+- Integrate AI **without displacing engineering judgment**
+- Preserve accountability and safety
+- Support, rather than replace, human decision-making
 
-AITL-based design relies on **competent engineers, not autonomous tools**.
-
+Under AITL, AI is a **design-time assistant**, not a decision authority.
