@@ -112,3 +112,27 @@ By completing this training, the trainee acknowledges that:
 
 Record any limitations, conditions, or follow-up actions identified during training or verification.
 
+(Free description)
+
+---
+
+## 9. Use of This Record
+
+Completed training records shall be:
+
+- Retained according to organizational quality procedures
+- Reviewed during internal audits or management reviews
+- Used as input for improvement or corrective actions when gaps are identified
+
+---
+
+## 10. Summary
+
+This training record provides **objective evidence** that:
+
+- Education was completed
+- Competence was verified
+- Responsibility boundaries were explicitly acknowledged
+
+AITL training emphasizes **accountability over automation**.
+
