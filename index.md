@@ -5,12 +5,22 @@ description: "AITL-based education and training documentation aligned with ISO 9
 
 # AITL Training
 
+[![Back to Portal (EN)](https://img.shields.io/badge/Back%20to%20Portal-0B5FFF?style=for-the-badge&logo=homeassistant&logoColor=white)](https://samizo-aitl.github.io/portal/en/)
+
 This repository provides **education and training documentation** based on  
 **AITL (Architecture for Integrated Technology Logic)**,  
 organized with **ISO 9001–style competence management, training structure, and responsibility separation** in mind.
 
 This repository does **not** contain technical implementations or source code.  
 It defines **how AITL-related knowledge is trained, verified, and maintained** from an education and competence perspective.
+
+---
+
+## 🔗 Links
+
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/aitl-training/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/aitl-training/tree/main) |
 
 ---
 
