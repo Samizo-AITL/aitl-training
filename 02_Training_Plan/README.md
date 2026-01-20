@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "Training Plans"
+---
+
 # Training Plans
 
 This directory contains **role-based training plans** for AITL-based systems.
