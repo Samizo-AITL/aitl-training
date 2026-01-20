@@ -19,3 +19,16 @@ They define *what must be understood and explained*, not how to implement it.
 All plans are aligned with:
 - AITL responsibility separation
 - ISO 9001 Clause 7.2 (Competence)
+
+---
+
+## Available Training Plans
+
+- **AI System Architect**  
+  - [Plan_AI_System_Architect.md](./Plan_AI_System_Architect.md)  
+  - Defines responsibility, required competence, and explanation scope for AITL system-level architecture.
+
+- **Control Engineer**  
+  - [Plan_Control_Engineer.md](./Plan_Control_Engineer.md)  
+  - Defines responsibility, required competence, and explanation scope for control-layer design and verification.
+
