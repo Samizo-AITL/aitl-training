@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "Training Records"
+---
+
 # Training Records
 
 This directory contains **templates for training records**.
