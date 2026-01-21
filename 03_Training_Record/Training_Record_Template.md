@@ -3,30 +3,30 @@ title: "aitl-training"
 description: "Training Record Template"
 ---
 
-# Training Record Template (AITL)
+# 📝 Training Record Template (AITL)
 
 This document provides the **standard training record template** for education and training
 conducted under **AITL (Architecture for Integrated Technology Logic)**.
 
 It is designed to support **ISO 9001 Clause 7.2 (Competence)** by providing
-traceable evidence of training scope, verification, and responsibility acknowledgment.
+**traceable, auditable evidence** of training scope, verification, and responsibility acknowledgment.
 
 ---
 
-## 1. Purpose of This Record
+## 1️⃣ Purpose of This Record
 
 The purpose of this training record is to:
 
-- Document completed education and training activities
-- Provide evidence of competence verification
-- Record responsibility acknowledgment by the trainee
-- Support audits, reviews, and continuous improvement
+- 📘 Document completed **education and training activities**
+- ✅ Provide **evidence of competence verification**
+- ✍ Record **explicit responsibility acknowledgment** by the trainee
+- 🔍 Support **audits, reviews, and continuous improvement**
 
-Completion of this record is **mandatory** for training recognition under AITL.
+⚠️ Completion of this record is **mandatory** for training recognition under AITL.
 
 ---
 
-## 2. Trainee Information
+## 2️⃣ Trainee Information
 
 | Item | Description |
 |---|---|
@@ -39,9 +39,9 @@ Completion of this record is **mandatory** for training recognition under AITL.
 
 ---
 
-## 3. Training Scope Completed
+## 3️⃣ Training Scope Completed
 
-Indicate which AITL training layers were completed.
+Indicate which **AITL training layers** were completed.
 
 | Layer | Description | Completed (Yes / No) | Notes |
 |---|---|---|---|
@@ -54,7 +54,7 @@ Indicate which AITL training layers were completed.
 
 ---
 
-## 4. Training Materials Referenced
+## 4️⃣ Training Materials Referenced
 
 List primary training materials used during education.
 
@@ -64,15 +64,15 @@ List primary training materials used during education.
 | | |
 | | |
 
-Materials should reference the **Samizo-AITL main repositories** where applicable.
+📌 Materials should reference the **Samizo-AITL main repositories** where applicable.
 
 ---
 
-## 5. Competence Verification
+## 5️⃣ Competence Verification
 
 Verification shall be performed using:
 
-- `04_Verification/Competence_Verification_Checklist.md`
+- 📄 `04_Verification/Competence_Verification_Checklist.md`
 
 ### Verification Summary
 
@@ -84,7 +84,7 @@ Verification shall be performed using:
 
 ---
 
-## 6. Verifier Information
+## 6️⃣ Verifier Information
 
 | Item | Description |
 |---|---|
@@ -95,15 +95,16 @@ Verification shall be performed using:
 
 ---
 
-## 7. Responsibility Acknowledgment
+## 7️⃣ Responsibility Acknowledgment
 
-By completing this training, the trainee acknowledges that:
+By completing this training, the trainee explicitly acknowledges that:
 
-- AI and automation **do not replace engineering responsibility**
-- Final design and control accountability remains human-assigned
-- AITL responsibility separation (PID / FSM / NN-RL / LLM) is understood and accepted
+- 🚫 AI and automation **do not replace engineering responsibility**
+- 🧠 Final design and control accountability remains **human-assigned**
+- 🧭 AITL responsibility separation  
+  *(PID / FSM / NN–RL / LLM)* is **understood and accepted**
 
-### Trainee Acknowledgment
+### ✍ Trainee Acknowledgment
 
 | Item | |
 |---|---|
@@ -113,31 +114,32 @@ By completing this training, the trainee acknowledges that:
 
 ---
 
-## 8. Notes and Observations
+## 8️⃣ Notes and Observations
 
-Record any limitations, conditions, or follow-up actions identified during training or verification.
+Record any **limitations, conditions, or follow-up actions**
+identified during training or verification.
 
-(Free description)
+*(Free description)*
 
 ---
 
-## 9. Use of This Record
+## 9️⃣ Use of This Record
 
 Completed training records shall be:
 
-- Retained according to organizational quality procedures
-- Reviewed during internal audits or management reviews
-- Used as input for improvement or corrective actions when gaps are identified
+- 🗂 Retained according to **organizational quality procedures**
+- 🔍 Reviewed during **internal audits or management reviews**
+- 🔄 Used as input for **improvement or corrective actions** when gaps are identified
 
 ---
 
-## 10. Summary
+## 🔟 Summary
 
 This training record provides **objective evidence** that:
 
-- Education was completed
-- Competence was verified
-- Responsibility boundaries were explicitly acknowledged
+- Education was completed  
+- Competence was verified  
+- Responsibility boundaries were **explicitly acknowledged**
 
-AITL training emphasizes **accountability over automation**.
+> 🛡 AITL training emphasizes **accountability over automation**.
 
