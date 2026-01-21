@@ -36,25 +36,34 @@ description: "Education & Training Needs Matrix (AITL – Public Repositories)"
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Samizo-AITL.github.io/portal** | ○ | ○ | ○ | ○ | ○ | ○ | ◎ | — | △ | ○ |
 | **Edusemi-v4x** | ◎ | ◎ | △ | — | — | — | ○ | △ | ○ | ○ |
-| **Edusemi-Plus** | ○ | ○ | ○ | △ | ○ | ○ | ◎ | △ | ○ | ○ |
-| **EduController** | △ | ○ | ◎ | ◎ | △ | — | ◎ | ○ | ◎ | ○ |
-| **aitl-training** | — | — | — | — | — | — | △ | — | △ | ◎ |
 | **SemiDevKit** | ○ | ◎ | ○ | — | — | — | ○ | ◎ | ○ | △ |
 | **openlane2-sram** | ○ | ◎ | — | — | — | — | △ | ◎ | ○ | △ |
-| **AITL Controller A-Type** | △ | ○ | ◎ | ◎ | ○ | — | ◎ | ○ | ◎ | ○ |
-| **AI Control Safety Package** | — | ○ | ○ | ◎ | ○ | — | ◎ | △ | ◎ | ◎ |
-| **V–I Control ASIC** | ◎ | ◎ | ◎ | △ | — | — | ◎ | ○ | ○ | ○ |
+| **Edusemi-Plus** | ○ | ○ | ○ | △ | ○ | ○ | ◎ | △ | ○ | ○ |
+
+| Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **EduController** | △ | ○ | ◎ | ◎ | △ | — | ◎ | ○ | ◎ | ○ |
 | **Control Playground** | △ | ○ | ○ | ○ | △ | — | ○ | ◎ | ○ | △ |
+| **AITL Controller A-Type** | △ | ○ | ◎ | ◎ | ○ | — | ◎ | ○ | ◎ | ○ |
 | **Envelope Control** | △ | ○ | ◎ | ○ | — | — | ◎ | ○ | ○ | △ |
 | **Design Recovery Control** | ○ | ◎ | ◎ | ◎ | △ | — | ◎ | ○ | ◎ | ○ |
+| **AI Control Safety Package** | — | ○ | ○ | ◎ | ○ | — | ◎ | △ | ◎ | ◎ |
+| **V–I Control ASIC** | ◎ | ◎ | ◎ | △ | — | — | ◎ | ○ | ○ | ○ |
+
+| Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **MEMS pre-FEM Analysis** | ◎ | ◎ | — | — | — | — | ○ | △ | ○ | △ |
 | **Inkjet DTS** | ◎ | ◎ | ○ | △ | — | — | ◎ | △ | ○ | ○ |
 | **Inkjet Timing** | ◎ | ◎ | ◎ | △ | — | — | ◎ | △ | ○ | ○ |
-| **Full Code Mechanical Design** | ◎ | ◎ | — | — | — | — | ○ | ○ | △ | △ |
 | **GF180 Inkjet Driver IC** | ◎ | ◎ | ◎ | △ | — | — | ◎ | ○ | ○ | ○ |
+| **Full Code Mechanical Design** | ◎ | ◎ | — | — | — | — | ○ | ○ | △ | △ |
+
+| Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **Samizo-AITL.github.io/portal** | ○ | ○ | ○ | ○ | ○ | ○ | ◎ | — | △ | ○ |
 | **AITL Animation Demos** | △ | △ | △ | △ | △ | △ | ○ | — | — | △ |
+| **aitl-training** | — | — | — | — | — | — | △ | — | △ | ◎ |
 
 ---
 
