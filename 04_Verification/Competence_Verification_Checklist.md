@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "Competence Verification Checklist"
+---
+
 # Competence Verification Checklist (AITL)
 
 This document defines the **competence verification checklist** for AITL-based education and training.
