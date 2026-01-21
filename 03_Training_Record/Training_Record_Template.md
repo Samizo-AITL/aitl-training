@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "Training Record Template"
+---
+
 # Training Record Template (AITL)
 
 This document provides the **standard training record template** for education and training
