@@ -1,9 +1,6 @@
 ---
-title: "Education & Training Needs Matrix (AITL – Public Repositories)"
-author: "Samizo-AITL"
-date: 2026-01-21
-category: "AITL-Training"
-purpose: "AITL adoption decision support using public repositories only"
+title: "aitl-training"
+description: "Education & Training Needs Matrix (AITL – Public Repositories)"
 ---
 
 # Education & Training Needs Matrix  
