@@ -1,85 +1,100 @@
-# Education & Training Needs Matrix  
-**Rows: Training Items (Public Repositories)**  
-**Columns: Required Job Competencies / Skills**
+# 🧩 Training Plans
 
-**Legend**  
-◎ = Mandatory (can take full responsibility independently)  
-○ = Important (can perform tasks autonomously)  
-△ = Basic understanding  
-— = Not applicable  
+This directory contains **role-based training plans** for **AITL-based systems**.
+
+Each training plan defines **what a role is responsible for knowing, explaining, and judging**,  
+from an **education and competence assurance perspective**.
 
 ---
 
-## Competency Definitions (Columns)
+## 🎯 Purpose of Training Plans
 
-| ID | Competency / Skill | Practical Definition (Business Level) |
-|---|---|---|
-| S1 | Physical Principles | Can explain phenomena causally (incl. V–I characteristics) |
-| S2 | Modeling | Can build models with equations / block diagrams and assumptions |
-| S3 | Control Theory (PID) | Can design gains with stability & performance justification |
-| S4 | State Control (FSM) | Can define states, transitions, and fault states |
-| S5 | AI Control (NN/RL) | Can define objectives, metrics, and deviation handling |
-| S6 | LLM Utilization | Can restrict LLMs to design support with validation rules |
-| S7 | System Integration | Can specify responsibility separation (Control × AI × Safety) |
-| S8 | Implementation | Can build reproducible implementations (Python / Git / EDA) |
-| S9 | Verification | Can define pass/fail criteria, tests, and logs |
-| S10 | Documentation | Can maintain traceability (Req → Design → Verification) |
+Each training plan clearly defines:
+
+- 👤 **Role responsibility and authority**  
+- 🧱 **Required training layers** based on the AITL training architecture  
+- 🎯 **Competence objectives** (knowledge, judgment, explanation capability)  
+- ✅ **Verification expectations** for competence confirmation  
+
+These plans exist to ensure that **design responsibility remains explicit, auditable, and human-owned**.
 
 ---
 
-## Training Item × Competency Matrix (Public Repos Only)
+## 🚫 Scope Limitation
 
-| Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| **Samizo-AITL.github.io/portal** | ○ | ○ | ○ | ○ | ○ | ○ | ◎ | — | △ | ○ |
-| **Edusemi-v4x** | ◎ | ◎ | △ | — | — | — | ○ | △ | ○ | ○ |
-| **Edusemi-Plus** | ○ | ○ | ○ | △ | ○ | ○ | ◎ | △ | ○ | ○ |
-| **EduController** | △ | ○ | ◎ | ◎ | △ | — | ◎ | ○ | ◎ | ○ |
-| **aitl-training** | — | — | — | — | — | — | △ | — | △ | ◎ |
-| **SemiDevKit** | ○ | ◎ | ○ | — | — | — | ○ | ◎ | ○ | △ |
-| **openlane2-sram** | ○ | ◎ | — | — | — | — | △ | ◎ | ○ | △ |
-| **AITL Controller A-Type** | △ | ○ | ◎ | ◎ | ○ | — | ◎ | ○ | ◎ | ○ |
-| **AI Control Safety Package** | — | ○ | ○ | ◎ | ○ | — | ◎ | △ | ◎ | ◎ |
-| **V–I Control ASIC** | ◎ | ◎ | ◎ | △ | — | — | ◎ | ○ | ○ | ○ |
-| **Control Playground** | △ | ○ | ○ | ○ | △ | — | ○ | ◎ | ○ | △ |
-| **Envelope Control** | △ | ○ | ◎ | ○ | — | — | ◎ | ○ | ○ | △ |
-| **Design Recovery Control** | ○ | ◎ | ◎ | ◎ | △ | — | ◎ | ○ | ◎ | ○ |
-| **MEMS pre-FEM Analysis** | ◎ | ◎ | — | — | — | — | ○ | △ | ○ | △ |
-| **Inkjet DTS** | ◎ | ◎ | ○ | △ | — | — | ◎ | △ | ○ | ○ |
-| **Inkjet Timing** | ◎ | ◎ | ◎ | △ | — | — | ◎ | △ | ○ | ○ |
-| **Full Code Mechanical Design** | ◎ | ◎ | — | — | — | — | ○ | ○ | △ | △ |
-| **GF180 Inkjet Driver IC** | ◎ | ◎ | ◎ | △ | — | — | ◎ | ○ | ○ | ○ |
-| **AITL Animation Demos** | △ | △ | △ | △ | △ | △ | ○ | — | — | △ |
+The training plans in this directory:
+
+- ❌ **Do not duplicate technical documentation**  
+- ❌ **Do not provide implementation guidance or code**  
+
+They define:
+
+> **What must be understood and explained**  
+> — **not** how to implement it.
+
+Technical implementation remains the responsibility of the appropriate  
+design and implementation repositories.
 
 ---
 
-## How to Use This Matrix (For Companies)
+## 🔖 Alignment and Constraints
 
-- **Control & Safety deployment**  
-  → Focus on `EduController`, `AITL Controller A-Type`, `AI Control Safety Package`  
-  → Ensure **S3, S4, S7 = ◎**
+All training plans are aligned with:
 
-- **Physics / Device-driven development**  
-  → Focus on `Edusemi-v4x`, `V–I Control ASIC`  
-  → Ensure **S1, S2 = ◎**
+- 🧭 **AITL responsibility separation**  
+  *(Control / Adaptive Assist / Design-time Intelligence)*  
+- 📘 **ISO 9001 Clause 7.2 (Competence)**  
+- 🧱 The **AITL Training Architecture**  
 
-- **Implementation & EDA flow**  
-  → Focus on `SemiDevKit`, `openlane2-sram`  
-  → Ensure **S8, S9**
-
-- **AITL governance & explanation responsibility**  
-  → `portal` + `aitl-training`  
-  → Ensure **S7, S10**
+No training plan may override or reinterpret these higher-level constraints.
 
 ---
 
-## Explicit Notes (Business Use)
+## 📌 Core Reference (Adoption Decision)
 
-- This matrix is built **only from public repositories**.
-- “Completed reading” is not sufficient.  
-  **Competency must be confirmed via S9 (Verification).**
-- If mandatory (◎) competencies are not met,  
-  **deployment to production work is not allowed.**
+### 🗂 Education & Training Needs Matrix (Public Repositories)
+
+- 📄 [`Education_Training_Needs_Matrix_AITL_Public.md`](./Education_Training_Needs_Matrix_AITL_Public.md)  
+- Defines the **competency coverage of AITL** using **public repositories only**  
+- Used for:
+  - 📊 AITL adoption decision  
+  - 🔍 Training gap analysis  
+  - 🧑‍💼 Management and auditor explanation  
+
+🔑 This matrix serves as the **single entry point** for organizational adoption and review.
 
 ---
 
+## 👥 Available Training Plans
+
+### 🤖 AI System Architect
+- 📄 [`Plan_AI_System_Architect.md`](./Plan_AI_System_Architect.md)  
+- Defines:
+  - System-level architectural responsibility  
+  - Required competence boundaries  
+  - Explanation scope for AI-assisted and design-time intelligence layers  
+
+---
+
+### 🎛 Control Engineer
+- 📄 [`Plan_Control_Engineer.md`](./Plan_Control_Engineer.md)  
+- Defines:
+  - Control-layer responsibility and authority  
+  - Required competence for real-time behavior and verification  
+  - Explanation scope tied to physical causality and control logic  
+
+---
+
+## 📝 Notes for Operation and Audit
+
+- 🧭 The **Education & Training Needs Matrix** is the **entry point for management and auditors**  
+- 📐 Role-based training plans **must reference the matrix**, not redefine competencies  
+- ✅ Training completion and competence confirmation are validated in:
+  - `03_Training_Record`  
+  - `04_Verification`  
+
+---
+
+> 🛡 **Note**  
+> Training plans define *competence expectations*, not performance guarantees.  
+> Final design responsibility always remains with qualified human engineers.
