@@ -32,7 +32,9 @@ description: "Education & Training Needs Matrix (AITL – Public Repositories)"
 
 ---
 
-## Training Item × Competency Matrix (Public Repos Only)
+## Training Item × Competency Matrix (Public Repos Only
+
+### Physics / Semiconductor & EDA
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -40,6 +42,8 @@ description: "Education & Training Needs Matrix (AITL – Public Repositories)"
 | **SemiDevKit** | ○ | ◎ | ○ | — | — | — | ○ | ◎ | ○ | △ |
 | **openlane2-sram** | ○ | ◎ | — | — | — | — | △ | ◎ | ○ | △ |
 | **Edusemi-Plus** | ○ | ○ | ○ | △ | ○ | ○ | ◎ | △ | ○ | ○ |
+
+### Control / Safety
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -51,6 +55,8 @@ description: "Education & Training Needs Matrix (AITL – Public Repositories)"
 | **AI Control Safety Package** | — | ○ | ○ | ◎ | ○ | — | ◎ | △ | ◎ | ◎ |
 | **V–I Control ASIC** | ◎ | ◎ | ◎ | △ | — | — | ◎ | ○ | ○ | ○ |
 
+### MEMS / Mechanical / Inkjet
+
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | **MEMS pre-FEM Analysis** | ◎ | ◎ | — | — | — | — | ○ | △ | ○ | △ |
@@ -58,6 +64,8 @@ description: "Education & Training Needs Matrix (AITL – Public Repositories)"
 | **Inkjet Timing** | ◎ | ◎ | ◎ | △ | — | — | ◎ | △ | ○ | ○ |
 | **GF180 Inkjet Driver IC** | ◎ | ◎ | ◎ | △ | — | — | ◎ | ○ | ○ | ○ |
 | **Full Code Mechanical Design** | ◎ | ◎ | — | — | — | — | ○ | ○ | △ | △ |
+
+### Architecture / Governance
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
