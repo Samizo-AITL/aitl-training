@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "AI System Architect"
+---
+
 # Training Plan: AI System Architect (AITL)
 
 This document defines the **role-based training plan** for **AI System Architects**
