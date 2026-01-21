@@ -3,16 +3,23 @@ title: "aitl-training"
 description: "Education & Training Needs Matrix (AITL – Public Repositories)"
 ---
 
-# Education & Training Needs Matrix  
+# 📊 Education & Training Needs Matrix  
 **Rows:** Training Items (Public Repositories)  
 **Columns:** Required Job Competencies / Skills  
 
-This matrix defines **which competencies are covered by which public AITL repositories**.  
-It is intended for **AITL adoption decisions, training gap analysis, and management / audit explanation**.
+This matrix defines **which competencies are covered by which public AITL repositories**.
+
+It is intended for:
+
+- 🧑‍💼 **AITL adoption decision making**  
+- 🔍 **Training gap analysis**  
+- 📘 **Management and ISO audit explanation**  
+
+This document provides a **competence coverage view**, not a training procedure.
 
 ---
 
-## Legend
+## 🔖 Legend
 
 - ◎ **Mandatory** — Can take full responsibility independently  
 - ○ **Important** — Can perform tasks autonomously  
@@ -21,7 +28,7 @@ It is intended for **AITL adoption decisions, training gap analysis, and managem
 
 ---
 
-## Competency Definitions (Columns)
+## 🧠 Competency Definitions (Columns)
 
 | ID | Competency / Skill | Business-Level Definition |
 |---|---|---|
@@ -38,10 +45,10 @@ It is intended for **AITL adoption decisions, training gap analysis, and managem
 
 ---
 
-## Training Item × Competency Matrix  
+## 🧱 Training Item × Competency Matrix  
 *(Public Repositories Only)*
 
-### Physics / Semiconductor & EDA
+### 🧪 Physics / Semiconductor & EDA
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -52,7 +59,7 @@ It is intended for **AITL adoption decisions, training gap analysis, and managem
 
 ---
 
-### Control / Safety
+### 🎛 Control / Safety
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -66,7 +73,7 @@ It is intended for **AITL adoption decisions, training gap analysis, and managem
 
 ---
 
-### MEMS / Mechanical / Inkjet
+### 🧩 MEMS / Mechanical / Inkjet
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -78,7 +85,7 @@ It is intended for **AITL adoption decisions, training gap analysis, and managem
 
 ---
 
-### Architecture / Governance
+### 🏛 Architecture / Governance
 
 | Training Item (Repository) | S1 | S2 | S3 | S4 | S5 | S6 | S7 | S8 | S9 | S10 |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -88,35 +95,37 @@ It is intended for **AITL adoption decisions, training gap analysis, and managem
 
 ---
 
-## How to Use This Matrix (For Companies)
+## 🧭 How to Use This Matrix (For Companies)
 
-- **Control & Safety deployment**  
+- 🎛 **Control & Safety deployment**  
   Focus on `EduController`, `AITL Controller A-Type`, `AI Control Safety Package`  
   → **S3, S4, S7 must be ◎**
 
-- **Physics / Device-driven development**  
+- 🧪 **Physics / device-driven development**  
   Focus on `Edusemi-v4x`, `V–I Control ASIC`  
   → **S1, S2 must be ◎**
 
-- **Implementation & EDA flow**  
+- 🧰 **Implementation & EDA flow**  
   Focus on `SemiDevKit`, `openlane2-sram`  
   → **S8 and S9 must be satisfied**
 
-- **AITL governance & explanation responsibility**  
+- 🏛 **AITL governance & explanation responsibility**  
   Use `portal` and `aitl-training`  
   → **S7 and S10 must be satisfied**
 
 ---
 
-## Explicit Notes (Business Use)
+## ⚠️ Explicit Notes (Business Use)
 
-- This matrix is built **exclusively from public repositories**.
-- “Completed reading” is not sufficient.  
-  **Competence must be confirmed via S9 (Verification).**
+- This matrix is built **exclusively from public repositories**.  
+- “Completed reading” is **not sufficient**.  
+  ➜ **Competence must be confirmed via S9 (Verification).**  
 - If mandatory (◎) competencies are not met,  
-  **deployment to production work is not permitted.**
+  🚫 **deployment to production work is not permitted.**
 
 ---
 
-*This document defines competency coverage and responsibility boundaries.  
-It does not replace role-specific training plans or verification records.*
+> 🛡 **Note**  
+> This document defines **competency coverage and responsibility boundaries**.  
+> It does **not** replace role-specific training plans or verification records.
+
