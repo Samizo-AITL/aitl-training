@@ -1,3 +1,8 @@
+---
+title: "aitl-training"
+description: "Control Engineer"
+---
+
 # Training Plan: Control Engineer (AITL)
 
 This document defines the **role-based training plan** for **Control Engineers**
